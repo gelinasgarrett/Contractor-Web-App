@@ -25,7 +25,7 @@ export const Form = ({
           name="roomName"
           onChange={handleChange}
         ></input>
-        <p>Length (inches)</p>
+        <p>Length (ft)</p>
         <input
           type="number"
           min="0"
@@ -35,7 +35,7 @@ export const Form = ({
           name="firstDimension"
           onChange={handleChange}
         ></input>
-        <p>Width (inches)</p>
+        <p>Width (ft)</p>
         {
           <input
             type="number"

@@ -10,7 +10,7 @@ export const ContractorCalculator = () => {
     roomName: "",
   });
   const [result, setResult] = useState("");
-  useEffect(() => {}, []);
+  //useEffect(() => {}, []);
 
   const handleFormChange = (event) => {
     const value = event.target.value;
