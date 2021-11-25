@@ -23,10 +23,13 @@ function Navbar() {
         <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
           <ul className="nav-menu-items" onClick={showSidebar}>
             <li className="navbar-toggle">
-              <Link to="#" className="menu-bars">
+              <Link to="#" className="menu-bars-close">
                 <AiIcons.AiOutlineClose />
               </Link>
             </li>
+            <h2 className="navbar-title">
+              <u>Pages</u>
+            </h2>
             {NavbarData.map((item, index) => {
               return (
                 <li key={index} className={item.cName}>
